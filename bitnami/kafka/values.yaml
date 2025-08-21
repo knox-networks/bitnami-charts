@@ -88,7 +88,7 @@ diagnosticMode:
 ##
 image:
   registry: 578672650824.dkr.ecr.us-east-2.amazonaws.com
-  repository: bitnami/images-amd64
+  repository: bitnami/images-arm64
   tag: kafka-3.7.1-debian-12-r4
   digest: ""
   ## Specify a imagePullPolicy
@@ -1512,7 +1512,7 @@ externalAccess:
     ##
     image:
       registry: 578672650824.dkr.ecr.us-east-2.amazonaws.com
-      repository: bitnami/images-amd64
+      repository: bitnami/images-arm64
       tag: kubectl-1.30.3-debian-12-r3
       digest: ""
       ## Specify a imagePullPolicy
@@ -1822,7 +1822,7 @@ volumePermissions:
   ##
   image:
     registry: 578672650824.dkr.ecr.us-east-2.amazonaws.com
-    repository: bitnami/images-amd64
+    repository: bitnami/images-arm64
     tag: os-shell-12-debian-12-r26
     digest: ""
     pullPolicy: IfNotPresent
@@ -1916,7 +1916,7 @@ metrics:
     ##
     image:
       registry: 578672650824.dkr.ecr.us-east-2.amazonaws.com
-      repository: bitnami/images-amd64
+      repository: bitnami/images-arm64
       tag: jmx-exporter-1.0.1-debian-12-r5
       digest: ""
       ## Specify a imagePullPolicy
